@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    padding: 30px;
+}
+
+body {
+    background-color: #0e5052;
+    text-align: center;
+    background: linear-gradient(97deg, #2009a2, #e89054);
+}
+
+#heading {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vmin;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 10vmin;
+    color: brown;
+    font-weight: 600;
+    background-color: burlywood;
+    cursor: pointer;
+}
+
+#reset {
+    position: relative;
+    top: 1vw;
+    background-color: black;
+    color: white;
+    font-size: 1.25rem;
+    padding: 1rem;
+    border-radius: 1.25rem;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#new-btn {
+    background-color: black;
+    color: white;
+    font-size: 1.25rem;
+    padding: 1rem;
+    border-radius: 1.25rem;
+    border: none;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#msg {
+    color: azure;
+    font-size: 7vmin;
+}
+
+.msg-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 4rem;
+}
+
+.hide {
+    display: none;
+}
